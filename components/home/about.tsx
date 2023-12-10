@@ -1,15 +1,10 @@
-
-
 import { gsap, Linear } from "gsap";
 import React, { MutableRefObject, useEffect, useRef, useState } from "react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-
 const AboutSection = () => {
   const quoteRef: MutableRefObject<HTMLDivElement> = useRef(null);
   const targetSection: MutableRefObject<HTMLDivElement> = useRef(null);
-
   const [willChange, setwillChange] = useState(false);
-
   const initAboutAnimation = (
     quoteRef: MutableRefObject<HTMLDivElement>,
     targetSection: MutableRefObject<HTMLDivElement>
