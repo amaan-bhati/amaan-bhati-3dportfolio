@@ -4,13 +4,11 @@ import Image from "next/image";
 import { MutableRefObject, useEffect, useRef, useState } from "react";
 import { gsap, Linear } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-
 const SKILL_STYLES = {
   SECTION:
     "w-full relative select-none mb-24 section-container py-12 flex flex-col justify-center",
   SKILL_TITLE: "section-title-sm mb-4 seq",
 };
-
 const SkillsSection = () => {
   const targetSection: MutableRefObject<HTMLDivElement> = useRef(null);
   const [willChange, setwillChange] = useState(false);
