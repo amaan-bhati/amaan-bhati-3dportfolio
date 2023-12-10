@@ -1,12 +1,10 @@
 
-
 export const METADATA = {
   title: "Amaan Bhati Portfolio website",
   description:
     "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
   siteUrl: "https://ayushsingh.net/",
 };
-
 export const MENULINKS = [
   {
     name: "Home",
