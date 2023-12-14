@@ -42,7 +42,7 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://www.mlsakiit.com/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -105,7 +105,7 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
+                          "https://github.com/Prashant1709/zivri_web/tree/main/Zivri%203d%20customization"
                         }
                         target="_blank"
                         rel="noreferrer"
