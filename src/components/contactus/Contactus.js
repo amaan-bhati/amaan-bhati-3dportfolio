@@ -125,17 +125,17 @@ export default function Contactus() {
                         <FiAtSign />
                       </div>
                       <p style={{ color: "#fbd9ad" }}>
-                        mdtonmoy13.mt@gmail.com
+                        amaanbhati49@gmail.com
                       </p>
                     </a>
                     <a
-                      href={`tel:+880 1603-550521`}
+                      href={`tel:+91 6200658194`}
                       className="personal-details"
                     >
                       <div className="detailsIcon">
                         <FiPhone />
                       </div>
-                      <p style={{ color: "#fbd9ad" }}>+880 1603-550521</p>
+                      <p style={{ color: "#fbd9ad" }}>+91 6200658194</p>
                     </a>
                     <a
                       href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
@@ -146,15 +146,14 @@ export default function Contactus() {
                           <HiOutlineLocationMarker />
                         </div>
                         <p style={{ color: "#fbd9ad" }}>
-                          BOF R/A, Gazipur Cantonment, BOF-1703, Dhaka,
-                          Bangladesh.
+                          KP-9, KIIT Campus 15, KIIT University, Patia, Bhubaneswar.
                         </p>
                       </div>
                     </a>
                   </div>
                   <div className="contact-map">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.833618785371!2d90.41265112695315!3d24.036931700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755db9832166e63%3A0x96050e560e6dc4fa!2sBOF%20Central%20Mosque!5e0!3m2!1sen!2sbd!4v1695023265917!5m2!1sen!2sbd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.81279175812!2d85.81200417459941!3d20.349351081135463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190918c5d8e013%3A0x5e41608e927c2aff!2sKing&#39;s%20Palace%209A%20(KP9-A)!5e0!3m2!1sen!2sin!4v1702568159827!5m2!1sen!2sin"
                       frameBorder="0"
                       allowFullScreen=""
                       aria-hidden="false"
@@ -163,6 +162,7 @@ export default function Contactus() {
                       loading="lazy"
                       className=""
                     ></iframe>
+                    
                   </div>
                 </Col>
               </Row>

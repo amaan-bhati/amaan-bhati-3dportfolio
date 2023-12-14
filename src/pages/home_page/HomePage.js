@@ -6,7 +6,12 @@ import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn,  FaTwitterSquare } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaTwitterSquare,
+  FaHackerrank,
+  FaFileDownload,
+} from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
 import Contactus from "../../components/contactus/Contactus";
@@ -71,7 +76,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
+                      href="https://www.twitter.com/front_end_er"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -79,7 +84,38 @@ export default function Home() {
                       <FaTwitterSquare />
                     </a>
                   </li>
-                  
+
+                  <li className="socialicons">
+                    <a
+                      href="https://www.facebook.com/mh.tonmoy.13"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconcolour homesocialicons"
+                    >
+                      <FaHackerrank />
+                    </a>
+                  </li>
+
+                  <li className="socialicons">
+                    <a
+                      href="https://www.facebook.com/mh.tonmoy.13"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconcolour homesocialicons"
+                    >
+                      <FaFileDownload />
+                    </a>
+                  </li>
+                  <li className="socialicons">
+                    <a
+                      href="https://www.facebook.com/mh.tonmoy.13"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconcolour homesocialicons"
+                    >
+                      <FaFileDownload />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </Col>
@@ -87,14 +123,14 @@ export default function Home() {
               <div className="img-home-main">
                 <Tilt>
                   <Fade cascade>
-                  <lottie-player
-                  src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
-                  background="transparent"
-                  speed="1"
-                  style={{ width: "100%", height: "90%" }}
-                  loop
-                  autoplay
-                ></lottie-player>
+                    <lottie-player
+                      src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
+                      background="transparent"
+                      speed="1"
+                      style={{ width: "100%", height: "90%" }}
+                      loop
+                      autoplay
+                    ></lottie-player>
                   </Fade>
                 </Tilt>
               </div>

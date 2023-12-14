@@ -62,7 +62,7 @@ export default function MyNav() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+               Home
               </Nav.Link>
             </Nav.Item>
 
@@ -72,9 +72,7 @@ export default function MyNav() {
                 to="/projectspage"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
+               {" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
@@ -85,7 +83,7 @@ export default function MyNav() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                 Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -95,7 +93,7 @@ export default function MyNav() {
                 to="/certificatepage"
                 onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Certifications
+               Certifications
               </Nav.Link>
             </Nav.Item>
 
@@ -105,7 +103,7 @@ export default function MyNav() {
                 to="/blogs"
                 onClick={() => updateExpanded(false)}
               >
-                <FaBlog style={{ marginBottom: "2px" }} /> Blogs
+                Blogs
               </Nav.Link>
             </Nav.Item>
 
