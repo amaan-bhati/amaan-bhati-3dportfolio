@@ -50,7 +50,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  New Year CountDown
+                                  MLSA KIIT Website
                                 </h5>
                                 <img src={nyc} alt={nyc} />
                                 <div className="project--showcaseBtn">
@@ -114,7 +114,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Heart Disease Prediction
+                                  ZIVRI.ME 3-D CLOTHING
                                 </h5>
                                 <img src={hd} alt={hd} />
                                 <div className="project--showcaseBtn">
@@ -177,7 +177,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectPageContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Online Payroll Management System
+                                  KIITFEST WEBSITE
                                 </h5>
                                 <img src={ci} alt={ci} />
                                 <div className="project--showcaseBtn">
@@ -240,7 +240,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Shoppy Ecommerce
+                                  FACE ATTENDANCE WITH REALTIME DB UPDATE
                                 </h5>
                                 <img src={eco} alt={eco} />
                                 <div className="project--showcaseBtn">

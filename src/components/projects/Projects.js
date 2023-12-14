@@ -36,7 +36,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                      MLSA KIIT WEBSITE
                     </h5>
                     <img src={nyc} alt={nyc} />
                     <div className="project--showcaseBtn">
@@ -82,7 +82,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
+                    NextJS, TypeScript, TailwindCSS, Framer Motion.
                   </div>
                 </div>
               </Fade>
@@ -99,7 +99,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                      ZIVRI.ME 3D CUSTOMISED CLOTHING
                     </h5>
                     <img src={hd} alt={hd} />
                     <div className="project--showcaseBtn">
@@ -144,7 +144,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
+                    ReactJS, ThreeJS, Valtio, Javascript, TailwindCSS
                   </div>
                 </div>
               </Fade>
@@ -161,7 +161,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      KIITFEST WEBSITE
                     </h5>
                     <img src={ci} alt={ci} />
                     <div className="project--showcaseBtn">
@@ -206,7 +206,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
+                    NextJS, TypeScript, TailwindCSS, ThreeJS, Go Lang
                   </div>
                 </div>
               </Fade>
@@ -223,7 +223,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
+                      FACE ATTENDANCE WITH REALTIME DB UPDATE
                     </h5>
                     <img src={pp} alt={pp} />
                     <div className="project--showcaseBtn">
@@ -266,7 +266,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    Python, Computer Vision, OpenCV, Firebase
                   </div>
                 </div>
               </Fade>
