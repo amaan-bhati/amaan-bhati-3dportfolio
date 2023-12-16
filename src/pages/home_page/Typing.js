@@ -8,10 +8,10 @@ function Typing() {
                 strings: [
                     "Software Developer",
                     "Web Developer",
-                    "Aspiring Fullstack Developer",
+                    "Master at Frontend",
                     "Problem Solver",
                     "Part time Designer",
-                    "Full time Learner",
+                    "Full time Learner.",
                 ],
                 autoStart: true,
                 loop: true,
