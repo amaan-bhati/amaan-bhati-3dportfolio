@@ -93,20 +93,13 @@ export default function MyNav() {
                 to="/certificatepage"
                 onClick={() => updateExpanded(false)}
               >
-               Certifications
+               Gallery
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/blogs"
-                onClick={() => updateExpanded(false)}
-              >
-                Blogs
-              </Nav.Link>
-            </Nav.Item>
+           
 
+            
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"

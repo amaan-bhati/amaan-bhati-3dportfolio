@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebookF, FaGoogle, FaTwitter } from "react-icons/fa";
 
 
 function Footer() {
@@ -30,7 +30,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/MD-MAFUJUL-HASAN"
+                href="https://github.com/amaan-bhati"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -40,7 +40,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                href="https://www.linkedin.com/in/amaan-bhati/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -50,7 +50,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/_md_mafujul_hasan_/"
+                href="https://www.instagram.com/amaanbhatiii/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -60,24 +60,24 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.facebook.com/mh.tonmoy.13"
+                href="https://www.twitter.com/front_end_er"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebookF />
+                <FaTwitter />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="mailto:mdtonmoy13.mt@gmail.com/"
+                href="mailto:amaanbhati49@gmail.com/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGoogle />
               </a>
-            </li>
+            </li> 
           </ul>
         </Col>
       </Row>
