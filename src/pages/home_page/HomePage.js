@@ -14,7 +14,9 @@ import {
 } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
+import ProjectJourney from "../../components/aboutme/journey/ProjectJourney";
 import Contactus from "../../components/contactus/Contactus";
+
 
 export default function Home() {
   return (
@@ -37,11 +39,13 @@ export default function Home() {
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> AMAAN BHATI</strong>
+                <h2>They call me "Jack of all trades, master at one"</h2>
               </h1>
 
               <div className="typing-homeclass">
                 <Typing />
               </div>
+              
               <div className="sociallink-home">
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
@@ -87,7 +91,7 @@ export default function Home() {
 
                   <li className="socialicons">
                     <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
+                      href="https://www.hackerrank.com/profile/amaanbhati49"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -114,9 +118,11 @@ export default function Home() {
                       className="iconcolour homesocialicons"
                     >
                       <FaFileDownload />
+
                     </a>
                   </li>
                 </ul>
+                
               </div>
             </Col>
             <Col md={4} style={{ paddingBottom: 20 }}>
@@ -139,9 +145,8 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      <Certification />
-      <Projects />
-      <Contactus />
+      <Projects/>
+      
     </section>
   );
 }
