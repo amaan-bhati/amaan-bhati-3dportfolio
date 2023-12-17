@@ -97,7 +97,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript
+                              NextJS, TypeScript, TailwindCSS, Framer Motion.
                               </div>
                             </div>
                           </Fade>
@@ -160,7 +160,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                Pandas, Matplotlib, Scikit-Learn
+                              ReactJS, ThreeJS, Valtio, Javascript, TailwindCSS
                               </div>
                             </div>
                           </Fade>
@@ -177,7 +177,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectPageContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  KIITFEST WEBSITE
+                                  KIITFEST OFFICIAL WEBSITE
                                 </h5>
                                 <img src={ci} alt={ci} />
                                 <div className="project--showcaseBtn">
@@ -223,7 +223,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript, PHP, SCSS
+                                TYPESCRIPT, TAILWINDCSS, NEXTJS, THREEJS, GOLANG
                               </div>
                             </div>
                           </Fade>

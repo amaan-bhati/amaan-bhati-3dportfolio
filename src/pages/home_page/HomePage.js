@@ -17,7 +17,6 @@ import Projects from "../../components/projects/Projects";
 import ProjectJourney from "../../components/aboutme/journey/ProjectJourney";
 import Contactus from "../../components/contactus/Contactus";
 
-
 export default function Home() {
   return (
     <section className="home-section">
@@ -146,7 +145,6 @@ export default function Home() {
       </Container>
       <AboutmeContainer />
       <Projects/>
-      
     </section>
   );
 }
