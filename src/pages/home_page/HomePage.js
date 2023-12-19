@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../../Particle";
 import Typing from "./Typing";
 import Tilt from "react-parallax-tilt";
+import { Navbar, Nav, Button } from "react-bootstrap";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
@@ -101,7 +102,7 @@ export default function Home() {
 
                   <li className="socialicons">
                     <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
+                      href=""
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -110,15 +111,14 @@ export default function Home() {
                     </a>
                   </li>
                   <li className="socialicons">
-                    <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <FaFileDownload />
-
-                    </a>
+                  <Button
+                  href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                  target="_blank"
+                  className="resume-btn" 
+                >Download Resume
+                  {/*<CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+          <AiFillStar style={{ fontSize: "1.1em" }} />*/}
+                </Button>
                   </li>
                 </ul>
                 

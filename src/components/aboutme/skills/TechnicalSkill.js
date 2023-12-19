@@ -7,18 +7,20 @@ export default function TechnicalSkill() {
   return (
     <div>
       <div className="mt-5 d-flex flex-row justify-content-center">
-        <Link className="btn btn-primary me-3" to="/technicalSkill">
-          Technical Skill
-        </Link>
-        <Link className="btn btn-primary me-3" to="/personalskill">
-          Personal Skill
-        </Link>
-        <Link className="btn btn-primary " to="/toolkit">
-          Toolkit
-        </Link>
+        {/* 
+<Link className="btn btn-primary me-3" to="/technicalSkill">
+  Technical Skill
+</Link>
+<Link className="btn btn-primary me-3" to="/personalskill">
+  Personal Skill
+</Link>
+<Link className="btn btn-primary " to="/toolkit">
+  Toolkit
+</Link>
+*/}
       </div>
       <Tada>
-        <h1 className="mt-4">Technical Skills</h1>
+        <h1 className="mt-4">Skills</h1>
       </Tada>
       <div className="mt-5">
         <Container>
@@ -368,11 +370,187 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-              COMPUTER NETWORKS
+                  COMPUTER NETWORKS
                 </h2>
               </div>
             </Col>
-            
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+              >
+                90%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"org"}
+                    aria-valuenow={"88"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "88%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#ff0173",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  GIT & GIT BASH
+                </h2>
+              </div>
+            </Col>
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+              >
+                90%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"org"}
+                    aria-valuenow={"88"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "88%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#ff0173",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  GITHUB/GITLAB
+                </h2>
+              </div>
+            </Col>
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+              >
+                95%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"org"}
+                    aria-valuenow={"88"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "88%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#ff0173",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  VS CODE
+                </h2>
+              </div>
+            </Col>
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+              >
+                70%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"org"}
+                    aria-valuenow={"88"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "88%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#ff0173",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  WORDPRESS
+                </h2>
+              </div>
+            </Col>
+
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+              >
+                40%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"org"}
+                    aria-valuenow={"88"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "88%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#ff0173",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  SOLIDITYJS
+                </h2>
+              </div>
+            </Col>
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+              >
+                30%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"org"}
+                    aria-valuenow={"88"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "88%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#ff0173",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  RUST
+                </h2>
+              </div>
+            </Col>
+
+
           </Row>
         </Container>
       </div>

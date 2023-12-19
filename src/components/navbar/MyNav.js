@@ -105,9 +105,9 @@ export default function MyNav() {
                 href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+              >Contact Me
+                {/*<CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+        <AiFillStar style={{ fontSize: "1.1em" }} />*/}
               </Button>
             </Nav.Item>
           </Nav>
