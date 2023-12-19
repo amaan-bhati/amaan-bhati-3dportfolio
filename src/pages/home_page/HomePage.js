@@ -144,7 +144,7 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      <Projects/>
+     
     </section>
   );
 }
