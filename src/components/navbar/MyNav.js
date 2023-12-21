@@ -97,6 +97,16 @@ export default function MyNav() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blogs_page"
+                onClick={() => updateExpanded(false)}
+              >
+               Other Portfolios
+              </Nav.Link>
+            </Nav.Item>
+
            
 
             

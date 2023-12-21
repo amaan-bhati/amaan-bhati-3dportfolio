@@ -796,6 +796,9 @@ html {
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
 }
+h1{
+  color: #be50f4;
+}
 
 .animate-like {
   animation-name: likeAnimation;
