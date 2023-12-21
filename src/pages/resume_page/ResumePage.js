@@ -1,8 +1,10 @@
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineFundView } from "react-icons/ai";
+
 import Particle from "../../Particle";
-import pdf from "../../assets/MD_MAFUJUL_HASAN.pdf";
+import pdf from "../../assets/aug-resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Zoom from "react-reveal/Zoom";
@@ -10,7 +12,7 @@ import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/MD-MAFUJUL-HASAN/Personal-Portfolio/main/src/assets/MD_MAFUJUL_HASAN.pdf";
+  "https://raw.githubusercontent.com/amaan-bhati/amaan-bhati-portfolio/main/src/assets/aug-resume.pdf";
 
 function Resume() {
   const [width, setWidth] = useState(1200);
@@ -36,7 +38,7 @@ function Resume() {
             </div>
             <div fluid className="certificate-section" id="about">
               <div className="d-flex justify-content-center mt-4">
-                <Button variant="primary" href={pdf} target="_blank">
+                <Button variant="primary" href="{pdf}" target="_blank">
                   <AiOutlineDownload />
                   &nbsp;Download Resume
                 </Button>
@@ -48,8 +50,8 @@ function Resume() {
               </div>
               <div className="d-flex justify-content-center">
                 <Button variant="primary" href={pdf} target="_blank">
-                  <AiOutlineDownload />
-                  &nbsp;Download Resume
+                  <AiOutlineFundView />
+                  &nbsp;View Resume
                 </Button>
               </div>
             </div>

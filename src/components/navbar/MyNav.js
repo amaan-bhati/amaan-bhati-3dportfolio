@@ -90,7 +90,7 @@ export default function MyNav() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/certificatepage"
+                to="/gallerypage"
                 onClick={() => updateExpanded(false)}
               >
                Gallery
@@ -112,7 +112,7 @@ export default function MyNav() {
             
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                href="https://linkedin.com/in/amaan-bhati"
                 target="_blank"
                 className="fork-btn-inner"
               >Contact Me

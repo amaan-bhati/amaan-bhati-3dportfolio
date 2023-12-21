@@ -112,7 +112,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                   <Button
-                  href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                  href="https://drive.google.com/file/d/128_XIW6rg0oatlLk1J2ddv7G-VZzIBjq/view?usp=drive_open"
                   target="_blank"
                   className="resume-btn" 
                 >Download Resume

@@ -3,11 +3,11 @@ import Particle from "../../Particle";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
+import mlsakiit from "../../images/mlsakiit.png";
 import eco from "../../images/eco.png";
-import pp from "../../images/portfolio.png";
+import zivri from "../../images/zivri.png";
+import kiitfest from "../../images/kiitfest.png";
+import tedxkiit from "../../images/tedxkiit.png";
 import meal from "../../images/meal.png";
 import ac from "../../images/academic.png";
 import age from "../../images/age.png";
@@ -52,7 +52,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   MLSA KIIT Website
                                 </h5>
-                                <img src={nyc} alt={nyc} />
+                                <img src={mlsakiit} alt={mlsakiit} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
@@ -116,7 +116,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   ZIVRI.ME 3-D CLOTHING
                                 </h5>
-                                <img src={hd} alt={hd} />
+                                <img src={zivri} alt={zivri} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
@@ -179,7 +179,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   KIITFEST OFFICIAL WEBSITE
                                 </h5>
-                                <img src={ci} alt={ci} />
+                                <img src={kiitfest} alt={kiitfest} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
@@ -303,13 +303,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Personal Portfolio
+                                  TEDxKIITUNIVERSITY Website
                                 </h5>
-                                <img src={pp} alt={pp} />
+                                <img src={tedxkiit} alt={tedxkiit} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                                      "https://tedxkiituniversity.in"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
