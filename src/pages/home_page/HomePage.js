@@ -11,7 +11,7 @@ import {
   FaLinkedinIn,
   FaTwitterSquare,
   FaHackerrank,
-  FaFileDownload,
+  FaFileDownload,FaLink,
 } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
@@ -107,7 +107,7 @@ export default function Home() {
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
                     >
-                      <FaFileDownload />
+                      <FaLink/>
                     </a>
                   </li>
                   <li className="socialicons">

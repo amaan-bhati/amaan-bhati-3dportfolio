@@ -107,12 +107,9 @@ export default function MyNav() {
               </Nav.Link>
             </Nav.Item>
 
-           
-
-            
             <Nav.Item className="fork-btn">
               <Button
-                href="https://linkedin.com/in/amaan-bhati"
+                href="https://linktr.ee/amaanbhati?utm_source=linktree_admin_share"
                 target="_blank"
                 className="fork-btn-inner"
               >Contact Me

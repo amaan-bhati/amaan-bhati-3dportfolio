@@ -13,7 +13,7 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
         <h3>
-        Designed and Developed with {'\u2764'} and{' '}
+        Designed || Developed with {'\u2764'} and{' '}
         <img
           src={caffeineSvgUrl}
           alt="Caffeine"

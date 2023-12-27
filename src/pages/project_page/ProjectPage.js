@@ -352,7 +352,7 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
+                      {/*<Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
                               key={1}
@@ -414,8 +414,8 @@ export default function ProjectPage() {
                               </div>
                             </div>
                           </Fade>
-                        </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
+                        </Col>*/}
+                        {/*<Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
                               key={1}
@@ -477,8 +477,8 @@ export default function ProjectPage() {
                               </div>
                             </div>
                           </Fade>
-                        </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
+                        </Col>*/}
+                        {/*<Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
                               key={1}
@@ -777,7 +777,7 @@ export default function ProjectPage() {
                               </div>
                             </div>
                           </Fade>
-                        </Col>
+                        </Col>*/}
                       </Row>
                     </Col>
                   </Row>
