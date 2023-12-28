@@ -365,7 +365,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  TEDxKIITUNIVERSITY Website
+                                  Project
                                 </h5>
                                 <img src={tedxkiit} alt={tedxkiit} />
                                 <div className="project--showcaseBtn">
@@ -395,10 +395,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Welcome to my personal portfolio. Explore my
-                                  work, skills, and achievements in a concise
-                                  and visually appealing format. Get a glimpse
-                                  of my expertise and creativity.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
                                 </p>
                               </h6>
                               <div
@@ -409,7 +406,66 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, SCSS, React, JavaScript
+                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH STACK 4
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Project
+                                </h5>
+                                <img src={tedxkiit} alt={tedxkiit} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://tedxkiituniversity.in"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH STACK 4
                               </div>
                             </div>
                           </Fade>
@@ -428,7 +484,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  TEDxKIITUNIVERSITY Website
+                                  Project
                                 </h5>
                                 <img src={tedxkiit} alt={tedxkiit} />
                                 <div className="project--showcaseBtn">
@@ -458,10 +514,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Welcome to my personal portfolio. Explore my
-                                  work, skills, and achievements in a concise
-                                  and visually appealing format. Get a glimpse
-                                  of my expertise and creativity.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
                                 </p>
                               </h6>
                               <div
@@ -472,7 +525,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, SCSS, React, JavaScript
+                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH STACK 4
                               </div>
                             </div>
                           </Fade>
@@ -491,7 +544,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  TEDxKIITUNIVERSITY Website
+                                  Project
                                 </h5>
                                 <img src={tedxkiit} alt={tedxkiit} />
                                 <div className="project--showcaseBtn">
@@ -521,10 +574,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Welcome to my personal portfolio. Explore my
-                                  work, skills, and achievements in a concise
-                                  and visually appealing format. Get a glimpse
-                                  of my expertise and creativity.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
                                 </p>
                               </h6>
                               <div
@@ -535,7 +585,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, SCSS, React, JavaScript
+                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH STACK 4
                               </div>
                             </div>
                           </Fade>
