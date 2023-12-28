@@ -352,6 +352,194 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  TEDxKIITUNIVERSITY Website
+                                </h5>
+                                <img src={tedxkiit} alt={tedxkiit} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://tedxkiituniversity.in"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  Welcome to my personal portfolio. Explore my
+                                  work, skills, and achievements in a concise
+                                  and visually appealing format. Get a glimpse
+                                  of my expertise and creativity.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                HTML, CSS, SCSS, React, JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  TEDxKIITUNIVERSITY Website
+                                </h5>
+                                <img src={tedxkiit} alt={tedxkiit} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://tedxkiituniversity.in"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  Welcome to my personal portfolio. Explore my
+                                  work, skills, and achievements in a concise
+                                  and visually appealing format. Get a glimpse
+                                  of my expertise and creativity.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                HTML, CSS, SCSS, React, JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  TEDxKIITUNIVERSITY Website
+                                </h5>
+                                <img src={tedxkiit} alt={tedxkiit} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://tedxkiituniversity.in"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  Welcome to my personal portfolio. Explore my
+                                  work, skills, and achievements in a concise
+                                  and visually appealing format. Get a glimpse
+                                  of my expertise and creativity.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                HTML, CSS, SCSS, React, JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
                       
                       </Row>
                     </Col>
