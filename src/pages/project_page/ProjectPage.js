@@ -97,7 +97,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                              NextJS, TypeScript, TailwindCSS, Framer Motion.
+                                NextJS, TypeScript, TailwindCSS, Framer Motion.
                               </div>
                             </div>
                           </Fade>
@@ -160,7 +160,8 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                              ReactJS, ThreeJS, Valtio, Javascript, TailwindCSS
+                                ReactJS, ThreeJS, Valtio, Javascript,
+                                TailwindCSS
                               </div>
                             </div>
                           </Fade>
@@ -308,9 +309,7 @@ export default function ProjectPage() {
                                 <img src={tedxkiit} alt={tedxkiit} />
                                 <div className="project--showcaseBtn">
                                   <a
-                                    href={
-                                      "https://tedxkiituniversity.in"
-                                    }
+                                    href={"https://tedxkiituniversity.in"}
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
@@ -370,9 +369,7 @@ export default function ProjectPage() {
                                 <img src={tedxkiit} alt={tedxkiit} />
                                 <div className="project--showcaseBtn">
                                   <a
-                                    href={
-                                      "https://tedxkiituniversity.in"
-                                    }
+                                    href={"https://tedxkiituniversity.in"}
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
@@ -395,7 +392,16 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua.
+                                  Ut enim ad minim veniam, quis nostrud
+                                  exercitation ullamco laboris nisi ut aliquip
+                                  ex ea commodo consequat. Duis aute irure dolor
+                                  in reprehenderit in voluptate velit esse
+                                  cillum dolore eu fugiat nulla pariatur.
+                                  Excepteur sint occaecat cupidatat non
+                                  proident.
                                 </p>
                               </h6>
                               <div
@@ -406,7 +412,8 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH STACK 4
+                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH
+                                STACK 4
                               </div>
                             </div>
                           </Fade>
@@ -429,9 +436,7 @@ export default function ProjectPage() {
                                 <img src={tedxkiit} alt={tedxkiit} />
                                 <div className="project--showcaseBtn">
                                   <a
-                                    href={
-                                      "https://tedxkiituniversity.in"
-                                    }
+                                    href={"https://tedxkiituniversity.in"}
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
@@ -454,7 +459,16 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua.
+                                  Ut enim ad minim veniam, quis nostrud
+                                  exercitation ullamco laboris nisi ut aliquip
+                                  ex ea commodo consequat. Duis aute irure dolor
+                                  in reprehenderit in voluptate velit esse
+                                  cillum dolore eu fugiat nulla pariatur.
+                                  Excepteur sint occaecat cupidatat non
+                                  proident.
                                 </p>
                               </h6>
                               <div
@@ -465,12 +479,12 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH STACK 4
+                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH
+                                STACK 4
                               </div>
                             </div>
                           </Fade>
                         </Col>
-
 
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
@@ -489,9 +503,7 @@ export default function ProjectPage() {
                                 <img src={tedxkiit} alt={tedxkiit} />
                                 <div className="project--showcaseBtn">
                                   <a
-                                    href={
-                                      "https://tedxkiituniversity.in"
-                                    }
+                                    href={"https://tedxkiituniversity.in"}
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
@@ -514,7 +526,16 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua.
+                                  Ut enim ad minim veniam, quis nostrud
+                                  exercitation ullamco laboris nisi ut aliquip
+                                  ex ea commodo consequat. Duis aute irure dolor
+                                  in reprehenderit in voluptate velit esse
+                                  cillum dolore eu fugiat nulla pariatur.
+                                  Excepteur sint occaecat cupidatat non
+                                  proident.
                                 </p>
                               </h6>
                               <div
@@ -525,12 +546,12 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH STACK 4
+                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH
+                                STACK 4
                               </div>
                             </div>
                           </Fade>
                         </Col>
-
 
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
@@ -549,9 +570,7 @@ export default function ProjectPage() {
                                 <img src={tedxkiit} alt={tedxkiit} />
                                 <div className="project--showcaseBtn">
                                   <a
-                                    href={
-                                      "https://tedxkiituniversity.in"
-                                    }
+                                    href={"https://tedxkiituniversity.in"}
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
@@ -574,7 +593,14 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua.
+                                  Ut enim ad minim veniam, quis nostrud
+                                  exercitation ullamco laboris nisi ut aliquip
+                                  ex ea commodo consequat. Duis aute irure dolor
+                                  in reprehenderit in voluptate velit esse
+                                  cillum dolore eu fugiat nulla pariatur.
                                 </p>
                               </h6>
                               <div
@@ -585,12 +611,12 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH STACK 4
+                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH
+                                STACK 4
                               </div>
                             </div>
                           </Fade>
                         </Col>
-                      
                       </Row>
                     </Col>
                   </Row>
