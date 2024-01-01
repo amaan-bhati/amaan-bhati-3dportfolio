@@ -9,6 +9,7 @@ import problem_solving from "../../images/problem_solving.png";
 import python from "../../images/python.png";
 import iq from "../../images/IQ_Test.jpg";
 import computer from "../../images/Computer_knowledge.jpg";
+
 import Fade from "react-reveal/Fade";
 
 export default function Certificate() {
