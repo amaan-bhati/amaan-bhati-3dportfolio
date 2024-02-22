@@ -29,7 +29,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#fe3e57", fontWeight: 700 }}
               >
-                70%
+                80%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -58,7 +58,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
               >
-                80%
+                70%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -145,7 +145,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
               >
-                90%
+                80%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -174,7 +174,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#ff8c2f", fontWeight: 700 }}
               >
-                90%
+                85%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -232,7 +232,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#fe3e57", fontWeight: 700 }}
               >
-                75%
+                55%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -257,123 +257,11 @@ export default function TechnicalSkill() {
                 </h2>
               </div>
             </Col>
-            <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
-              >
-                45%
-              </h1>
-              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"pm"}
-                    aria-valuenow={"85"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
-                <h2
-                  style={{
-                    color: "#54faae",
-                    fontSize: "25px",
-                    marginTop: "13px",
-                    fontWeight: 700,
-                  }}
-                >
-                  JENKINS
-                </h2>
-              </div>
-            </Col>
+            
 
-            <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
-              >
-                50%
-              </h1>
-              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"pm"}
-                    aria-valuenow={"85"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
-                <h2
-                  style={{
-                    color: "#54faae",
-                    fontSize: "25px",
-                    marginTop: "13px",
-                    fontWeight: 700,
-                  }}
-                >
-                  DOCKER
-                </h2>
-              </div>
-            </Col>
-            <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
-              >
-                45%
-              </h1>
-              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"pm"}
-                    aria-valuenow={"85"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
-                <h2
-                  style={{
-                    color: "#54faae",
-                    fontSize: "25px",
-                    marginTop: "13px",
-                    fontWeight: 700,
-                  }}
-                >
-                  KUBERNETES
-                </h2>
-              </div>
-            </Col>
-            <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
-              >
-                75%
-              </h1>
-              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"pm"}
-                    aria-valuenow={"85"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
-                <h2
-                  style={{
-                    color: "#54faae",
-                    fontSize: "25px",
-                    marginTop: "13px",
-                    fontWeight: 700,
-                  }}
-                >
-                  COMPUTER NETWORKS
-                </h2>
-              </div>
-            </Col>
+           
+            
+          
             <Col md={4}>
               <h1
                 style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
@@ -428,7 +316,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  GITHUB/GITLAB
+                  GITHUB
                 </h2>
               </div>
             </Col>
@@ -465,7 +353,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
               >
-                70%
+                50%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -486,69 +374,13 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  WORDPRESS
+                  WORDPRESS/WEBFLOW
                 </h2>
               </div>
             </Col>
 
-            <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
-              >
-                40%
-              </h1>
-              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"org"}
-                    aria-valuenow={"88"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "88%" }}
-                  ></div>
-                </div>
-                <h2
-                  style={{
-                    color: "#ff0173",
-                    fontSize: "25px",
-                    marginTop: "13px",
-                    fontWeight: 700,
-                  }}
-                >
-                  SOLIDITYJS
-                </h2>
-              </div>
-            </Col>
-            <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
-              >
-                30%
-              </h1>
-              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"org"}
-                    aria-valuenow={"88"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "88%" }}
-                  ></div>
-                </div>
-                <h2
-                  style={{
-                    color: "#ff0173",
-                    fontSize: "25px",
-                    marginTop: "13px",
-                    fontWeight: 700,
-                  }}
-                >
-                  RUST
-                </h2>
-              </div>
-            </Col>
+            
+            
 
 
           </Row>
