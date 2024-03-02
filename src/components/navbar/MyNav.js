@@ -44,7 +44,7 @@ export default function MyNav() {
                 color: "#fbd9ad",
               }}
             >
-              AMAAN BHATI FRONTEND
+              AMAAN BHATI 
             </h5>
           </div>
         </Navbar.Brand>
