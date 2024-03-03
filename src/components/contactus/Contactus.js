@@ -152,16 +152,16 @@ export default function Contactus() {
                     </a>
                   </div>
                   <div className="contact-map">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.81279175812!2d85.81200417459941!3d20.349351081135463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190918c5d8e013%3A0x5e41608e927c2aff!2sKing&#39;s%20Palace%209A%20(KP9-A)!5e0!3m2!1sen!2sin!4v1702568159827!5m2!1sen!2sin"
-                      frameBorder="0"
-                      allowFullScreen=""
-                      aria-hidden="false"
-                      title="Contact Me"
-                      tabIndex="0"
-                      loading="lazy"
-                      className=""
-                    ></iframe>
+                  <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.81279175812!2d85.81200417459941!3d20.349351081135463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190918c5d8e013%3A0x5e41608e927c2aff!2sKing&#39;s%20Palace%209A%20(KP9-A)!5e0!3m2!1sen!2sin!4v1702568159827!5m2!1sen!2sin"
+                  frameBorder="0"
+                  allowFullScreen=""
+                  aria-hidden="false"
+                  title="Contact Me"
+                  tabIndex="0"
+                  loading="lazy"
+                  className=""
+                ></iframe>
                     
                   </div>
                 </Col>
