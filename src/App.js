@@ -26,6 +26,7 @@ import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
 import SocialMedia from "./components/aboutme/social_media/SocialMedia";
 // import Zoom from 'react-reveal/Zoom';
 import Toolkit from "./components/aboutme/skills/Toolkit";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const [load, updateLoad] = useState(true);
