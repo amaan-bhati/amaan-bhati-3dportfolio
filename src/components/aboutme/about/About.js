@@ -41,7 +41,7 @@ const About = () => {
                         I am proficient in various programming languages such as &nbsp;
                   <b className="purple">
                     {" "}
-                    HTML, CSS, JavaScript, Typescript, Python, C and Java .{" "}
+                    HTML, CSS, JavaScript, Typescript, Reactjs/Nextjs, Nodejs, Express.js, Mongodb.{" "}
                   </b>
                 <br />
                 <br />
@@ -49,7 +49,7 @@ const About = () => {
 
                   <b className="purple">
                     {" "}
-                    NodeJS, ReactJS, OpenCV, NextJS, Tailwind CSS, ThreeJS.{" "}
+                    NodeJS, ReactJS, Nextjs OpenCV, NextJS, Tailwind CSS, ThreeJS, OpenAI{" "}
                   </b>
                 <br />
                 <br />
