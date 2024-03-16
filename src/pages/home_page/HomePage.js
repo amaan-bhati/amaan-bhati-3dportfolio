@@ -105,14 +105,14 @@ export default function Home() {
                       href=""
                       target="_blank"
                       rel="noreferrer"
-                      className="iconcolour homesocialicons"
+                      className="iconcolour homesocialico~ns"
                     >
                       <FaLink/>
                     </a>
                   </li>
                   <li className="socialicons">
                   <Button
-                  href="https://drive.google.com/file/d/128_XIW6rg0oatlLk1J2ddv7G-VZzIBjq/view?usp=drive_open"
+                  href="https://drive.google.com/file/d/1pVamHQ6yqsbXtzACSa41_DrYwVfZALk9/view?usp=sharing"
                   target="_blank"
                   className="resume-btn" 
                 >Download Resume
