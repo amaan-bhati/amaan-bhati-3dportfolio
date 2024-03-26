@@ -8,8 +8,6 @@ function Typing() {
                 strings: [
                     "Software Developer",
                     "Web Developer",
-                    "Master at Frontend",
-                    "Problem Solver",
                     "Part time Designer",
                     "Full time Learner.",
                 ],

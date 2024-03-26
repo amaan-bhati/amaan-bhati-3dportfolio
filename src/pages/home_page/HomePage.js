@@ -39,7 +39,7 @@ export default function Home() {
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> AMAAN BHATI</strong>
-                <h2>They call me "Jack of all trades, master at one"</h2>
+              
               </h1>
 
               <div className="typing-homeclass">

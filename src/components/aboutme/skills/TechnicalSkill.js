@@ -21,6 +21,7 @@ export default function TechnicalSkill() {
       </div>
       <Tada>
         <h1 className="mt-4">Skills</h1>
+        <h2>They call me "Jack of all trades, master at one"</h2>
       </Tada>
       <div className="mt-5">
         <Container>
