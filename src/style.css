@@ -874,7 +874,7 @@ h1{
   height: 0.2rem !important;
   overflow: hidden;
   font-size: .75rem;
-  background-color: #e9ecef;
+  background-color: #cb70ff;
   border-radius: 0.25rem;
   width:100%;
 }
@@ -886,7 +886,7 @@ h1{
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #fe3e57;
+    background-color: #cb70ff;
     transition: width .6s ease;
     width: 55%;
 }
@@ -898,7 +898,7 @@ h1{
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #54faae;
+    background-color: #cb70ff;
     transition: width .6s ease;
     width: 55%;
 }
@@ -910,7 +910,7 @@ h1{
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #ff8c2f;
+    background-color: #cb70ff;
     transition: width .6s ease;
     width: 55%;
 }
@@ -922,7 +922,7 @@ h1{
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #f1f965;
+    background-color: #cb70ff;
     transition: width .6s ease;
     width: 55%;
 }
@@ -934,7 +934,7 @@ h1{
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #ff0173;
+    background-color: #cb70ff;
     transition: width .6s ease;
     width: 55%;
 }
@@ -946,7 +946,7 @@ h1{
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #39c4ff;
+    background-color: #cb70ff;
     transition: width .6s ease;
     width: 55%;
 }
@@ -958,7 +958,7 @@ h1{
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #41f2ff;
+    background-color: #cb70ff;
     transition: width .6s ease;
     width: 55%;
 }

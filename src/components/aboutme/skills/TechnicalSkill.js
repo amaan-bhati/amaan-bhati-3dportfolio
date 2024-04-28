@@ -28,7 +28,7 @@ export default function TechnicalSkill() {
           <Row className="g-5">
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#fe3e57", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 80%
               </h1>
@@ -45,7 +45,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#fe3e57",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -57,7 +57,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 70%
               </h1>
@@ -74,7 +74,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#54faae",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -86,7 +86,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#39c4ff", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 90%
               </h1>
@@ -103,7 +103,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#39c4ff",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -115,7 +115,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#f1f965", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 90%
               </h1>
@@ -132,7 +132,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#f1f965",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -144,7 +144,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 80%
               </h1>
@@ -161,7 +161,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#ff0173",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -173,7 +173,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#ff8c2f", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 85%
               </h1>
@@ -190,7 +190,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#ff8c2f",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -202,7 +202,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#41f2ff", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 95%
               </h1>
@@ -219,7 +219,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#41f2ff",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -231,7 +231,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#fe3e57", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 55%
               </h1>
@@ -248,7 +248,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#fe3e57",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -265,7 +265,7 @@ export default function TechnicalSkill() {
           
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 90%
               </h1>
@@ -282,7 +282,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#ff0173",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -294,7 +294,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 90%
               </h1>
@@ -311,7 +311,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#ff0173",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -323,7 +323,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 95%
               </h1>
@@ -340,7 +340,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#ff0173",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -352,7 +352,7 @@ export default function TechnicalSkill() {
             </Col>
             <Col md={4}>
               <h1
-                style={{ fontSize: "100px", color: "#ff0173", fontWeight: 700 }}
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
                 50%
               </h1>
@@ -369,7 +369,7 @@ export default function TechnicalSkill() {
                 </div>
                 <h2
                   style={{
-                    color: "#ff0173",
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
