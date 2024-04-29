@@ -52,7 +52,7 @@ function EducationJourney() {
         EWL Project member
       </h4>
       <h4 className="vertical-timeline-element-subtitle mt-2">
-        Ziroh Labs
+        ZIROH LABS
       </h4>
       {/*<p>
           Studied Bachelor of Science degree in Computer Science and
@@ -73,7 +73,7 @@ function EducationJourney() {
         Web Dev Intern
       </h4>
       <h4 className="vertical-timeline-element-subtitle mt-2">
-        K Digital
+        KIIT DIGITAL
       </h4>
       {/*<p>
           Studied Bachelor of Science degree in Computer Science and
@@ -91,7 +91,7 @@ function EducationJourney() {
         >
           <h4 className="vertical-timeline-element-title">Web Developer</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            KIITFEST Official Tech Team
+            KIITFEST 
           </h4>
           {/*<p>
             Studied Bachelor of Science degree in Computer Science and
@@ -110,7 +110,7 @@ function EducationJourney() {
           Web development Lead
         </h4>
         <h4 className="vertical-timeline-element-subtitle mt-2">
-          Microsoft Learn Student Ambassador, KIIT
+          MICROSOFT LEARN STUDENT AMBASSADOR, KIIT
         </h4>
         {/*<p>
             Studied Bachelor of Science degree in Computer Science and
@@ -130,7 +130,7 @@ function EducationJourney() {
         Fullstack Web Developer
       </h4>
       <h4 className="vertical-timeline-element-subtitle mt-2">
-        Sculpted Threads
+        SCULPTED THREADS
       </h4>
       {/*<p>
             Studied Bachelor of Science degree in Computer Science and
@@ -189,7 +189,7 @@ function EducationJourney() {
         >
           <h4 className="vertical-timeline-element-title">Tech Executive</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Microsoft Student Community
+            MICROSOFT STUDENT COMMUNITY
           </h4>
           {/*<p>
             Studied Bachelor of Science degree in Computer Science and
@@ -207,7 +207,7 @@ function EducationJourney() {
         >
           <h4 className="vertical-timeline-element-title">Web Project Member</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Diversion 2022
+            DIVERSION 2022
           </h4>
           {/*<p>
             Studied Bachelor of Science degree in Computer Science and
@@ -225,7 +225,7 @@ function EducationJourney() {
         >
           <h4 className="vertical-timeline-element-title">Junior Web Developer</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Microsoft Student Community
+            MICROSOFT STUDENT COMMUNITY
           </h4>
           {/*
           <p>

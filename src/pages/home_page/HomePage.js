@@ -17,6 +17,7 @@ import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
 import ProjectJourney from "../../components/aboutme/journey/ProjectJourney";
 import Contactus from "../../components/contactus/Contactus";
+import EducationJourney from "../../components/aboutme/journey/EducationJourney";
 
 export default function Home() {
   return (
@@ -144,6 +145,7 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
+      <EducationJourney/>
      
     </section>
   );

@@ -39,7 +39,7 @@ export default function AboutmeContainer() {
                     Skills
                   </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                {/*<Nav.Item>
                   <Nav.Link
                     as={Link}
                     to="educationjourney"
@@ -48,7 +48,7 @@ export default function AboutmeContainer() {
                   >
                     Experience
                   </Nav.Link>
-                </Nav.Item>
+  </Nav.Item>*/}
                 {/*
 <Nav.Item>
     <Nav.Link as={Link} to="ranking" eventKey="link-4" style={{ fontSize: "17px", fontWeight: 700 }}>
