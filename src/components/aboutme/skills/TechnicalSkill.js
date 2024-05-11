@@ -41,13 +41,13 @@ export default function TechnicalSkill() {
         <Container>
           <Row className="g-5">
             <Col md={4}>
-              <h1 style={{ fontSize: "100px", fontWeight: 700 }}>
+              <h1 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}>
                 <TbBrandJavascript />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <h2
                   style={{
-                    color: "#cb70ff",
+                    
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -59,13 +59,13 @@ export default function TechnicalSkill() {
             </Col>
 
             <Col md={4}>
-              <h1 style={{ fontSize: "100px", fontWeight: 700 }}>
+              <h1 style={{ fontSize: "100px",color: "#cb70ff", fontWeight: 700 }}>
                 <SiTypescript />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <h2
                   style={{
-                    color: "#cb70ff",
+                   
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
