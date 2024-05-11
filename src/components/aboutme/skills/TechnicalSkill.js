@@ -2,6 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import Tada from "react-reveal/Tada";
+import { TbBrandJavascript } from "react-icons/tb";
+import { SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { TbBrandTailwind } from "react-icons/tb";
+import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNodejs } from "react-icons/tb";
+import { TfiHtml5 } from "react-icons/tfi";
+import { IoLogoCss3 } from "react-icons/io";
+import { TbBrandThreejs } from "react-icons/tb";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGitSquare } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { TbBrandVscode } from "react-icons/tb";
+import { RiAiGenerate } from "react-icons/ri";
 
 export default function TechnicalSkill() {
   return (
@@ -27,80 +41,48 @@ export default function TechnicalSkill() {
         <Container>
           <Row className="g-5">
             <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
-              >
-                80%
+              <h1 style={{ fontSize: "100px", fontWeight: 700 }}>
+                <TbBrandJavascript />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"com"}
-                    aria-valuenow={"85"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
                 <h2
                   style={{
-                    color: "#fbd9ad",
+                    color: "#cb70ff",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
                   }}
                 >
-                  JAVASCRIPT
+                  Javascript
                 </h2>
               </div>
             </Col>
+
             <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
-              >
-                70%
+              <h1 style={{ fontSize: "100px", fontWeight: 700 }}>
+                <SiTypescript />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"pm"}
-                    aria-valuenow={"85"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
                 <h2
                   style={{
-                    color: "#fbd9ad",
+                    color: "#cb70ff",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
                   }}
                 >
-                  TYPESCRIPT
+                  Typescript
                 </h2>
               </div>
             </Col>
+
             <Col md={4}>
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                90%
+                <FaReact />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"cr"}
-                    aria-valuenow={"90"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "90%" }}
-                  ></div>
-                </div>
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -117,19 +99,9 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                90%
+                <TbBrandTailwind />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"aa"}
-                    aria-valuenow={"81"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "81%" }}
-                  ></div>
-                </div>
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -146,19 +118,9 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                80%
+                <TbBrandNextjs />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"org"}
-                    aria-valuenow={"88"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "88%" }}
-                  ></div>
-                </div>
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -175,19 +137,9 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                85%
+                <TbBrandNodejs />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"ps"}
-                    aria-valuenow={"86"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "86%" }}
-                  ></div>
-                </div>
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -204,19 +156,9 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                95%
+                <TfiHtml5 />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"react"}
-                    aria-valuenow={"86"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "86%" }}
-                  ></div>
-                </div>
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -225,27 +167,38 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  HTML & CSS
+                  HTML
                 </h2>
               </div>
             </Col>
+
             <Col md={4}>
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                55%
+                <IoLogoCss3 />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"com"}
-                    aria-valuenow={"85"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
+                <h2
+                  style={{
+                    color: "#fbd9ad",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  CSS
+                </h2>
+              </div>
+            </Col>
+
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
+              >
+                <TbBrandThreejs />
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -258,28 +211,15 @@ export default function TechnicalSkill() {
                 </h2>
               </div>
             </Col>
-            
 
-           
-            
-          
             <Col md={4}>
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                90%
+                <FaGitAlt />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"org"}
-                    aria-valuenow={"88"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "88%" }}
-                  ></div>
-                </div>
+               
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -288,27 +228,40 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  GIT & GIT BASH
+                  GIT
                 </h2>
               </div>
             </Col>
+
             <Col md={4}>
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                90%
+              <FaGitSquare />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"org"}
-                    aria-valuenow={"88"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "88%" }}
-                  ></div>
-                </div>
+                
+                <h2
+                  style={{
+                    color: "#fbd9ad",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  BASH
+                </h2>
+              </div>
+            </Col>
+
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
+              >
+              <FaGithubSquare />
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -325,19 +278,10 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                95%
+              <TbBrandVscode />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"org"}
-                    aria-valuenow={"88"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "88%" }}
-                  ></div>
-                </div>
+                
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -354,19 +298,10 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#cb70ff", fontWeight: 700 }}
               >
-                50%
+              <RiAiGenerate />
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"org"}
-                    aria-valuenow={"88"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "88%" }}
-                  ></div>
-                </div>
+                
                 <h2
                   style={{
                     color: "#fbd9ad",
@@ -375,15 +310,10 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  WORDPRESS/WEBFLOW
+                  GENERATIVE AI
                 </h2>
               </div>
             </Col>
-
-            
-            
-
-
           </Row>
         </Container>
       </div>
