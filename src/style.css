@@ -166,7 +166,7 @@ html {
   .img-home-main{
     width: 100% !important;
     text-align: center !important;
-    padding-top: 40px !important;
+    padding-top: 20px !important;
   }
   .navbarmain{
     margin-left: 0px;
@@ -351,6 +351,7 @@ html {
   }
   .heading-name {
     font-size: 3.0em !important;
+    margin-top: -25px !important;
     padding-left: 16px !important;
   }
   .typing-homeclass{
@@ -359,7 +360,7 @@ html {
   .sociallink-home{
     padding-left: 10px;
     text-align: left;
-    padding-top: 55px;
+    padding-top: 45px;
   }
   .socialicons{
     padding-top: 10px;

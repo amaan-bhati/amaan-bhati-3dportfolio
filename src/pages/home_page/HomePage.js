@@ -45,9 +45,9 @@ export default function Home() {
               
               </h1>
 
-           {/*}   <div className="typing-homeclass">
+              <div className="typing-homeclass">
                 <Typing />
-</div>*/}
+</div>
               
               <div className="sociallink-home">
                 <ul className="homeaboutsociallinks">

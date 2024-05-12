@@ -17,6 +17,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { TbBrandVscode } from "react-icons/tb";
 import { RiAiGenerate } from "react-icons/ri";
 
+
 export default function TechnicalSkill() {
   return (
     <div>
@@ -35,7 +36,7 @@ export default function TechnicalSkill() {
       </div>
       <Tada>
         <h1 className="mt-4">Skills</h1>
-        <h2>They call me "Jack of all trades, master at one"</h2>
+        <h2 style={{color: "#cb70ff"}}>They call me "Jack of all trades, master at one"</h2>
       </Tada>
       <div className="mt-5">
         <Container>
@@ -47,7 +48,7 @@ export default function TechnicalSkill() {
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <h2
                   style={{
-                    
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,
@@ -65,7 +66,7 @@ export default function TechnicalSkill() {
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <h2
                   style={{
-                   
+                    color: "#fbd9ad",
                     fontSize: "25px",
                     marginTop: "13px",
                     fontWeight: 700,

@@ -179,7 +179,7 @@ function EducationJourney() {
           </p>*/}
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
+       {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
@@ -191,11 +191,11 @@ function EducationJourney() {
           <h4 className="vertical-timeline-element-subtitle mt-2">
             MICROSOFT STUDENT COMMUNITY
           </h4>
-          {/*<p>
+          <p>
             Studied Bachelor of Science degree in Computer Science and
             Engineering field from Sonargaon University and gain CGPA 3.44.
-          </p>*/}
-        </VerticalTimelineElement>
+          </p>
+        </VerticalTimelineElement>*/}
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
