@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiOutlineJavaScript } from "react-icons/ai";
 import {
   FaLinkedinIn,
   FaTwitterSquare,
@@ -18,6 +18,8 @@ import Projects from "../../components/projects/Projects";
 import ProjectJourney from "../../components/aboutme/journey/ProjectJourney";
 import Contactus from "../../components/contactus/Contactus";
 import EducationJourney from "../../components/aboutme/journey/EducationJourney";
+import Skills from "../../components/aboutme/skills/Skills";
+import TechnicalSkill from "../../components/aboutme/skills/TechnicalSkill";
 
 export default function Home() {
   return (
@@ -32,20 +34,20 @@ export default function Home() {
                 className="heading"
               >
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
+              {/*}  <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
-                </span>
+  </span>*/}
               </h1>
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> AMAAN BHATI</strong>
+                <strong className="main-name"> AMAAN </strong>
               
               </h1>
 
-              <div className="typing-homeclass">
+           {/*}   <div className="typing-homeclass">
                 <Typing />
-              </div>
+</div>*/}
               
               <div className="sociallink-home">
                 <ul className="homeaboutsociallinks">
@@ -145,7 +147,11 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
+      
       <EducationJourney/>
+      {/*<Projects/>
+      <TechnicalSkill/>*/}
+      
      
     </section>
   );
