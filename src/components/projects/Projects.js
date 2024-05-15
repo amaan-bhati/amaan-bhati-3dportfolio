@@ -3,9 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
 import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
+import gc from "../../images/githubclone.png";
 import hd from "../../images/hd.png";
 import pp from "../../images/portfolio.png";
+
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -161,9 +162,9 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      KIITFEST WEBSITE
+                      GITHUB CLONE
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={gc} alt={gc} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
@@ -191,11 +192,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+                    A functional clone of the GitHub landing page, meticulously crafted with Next.js, Tailwind CSS, and TypeScript. It boasts pixel-perfect visual fidelity, replicating the original's text animations, fonts, colors, and even animations. Built on top of Next.js, Tailwind CSS, and TypeScript.
                     </p>
                   </h6>
                   <div
@@ -206,7 +203,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    NextJS, TypeScript, TailwindCSS, ThreeJS, Go Lang
+                    NextJS, TypeScript, TailwindCSS
                   </div>
                 </div>
               </Fade>
