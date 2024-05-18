@@ -19,7 +19,7 @@ const About = () => {
                 <Tilt>
                   <Fade cascade>
                     <img
-                      src="./profile.png"
+                      src="./profile.webp"
                       alt="home pic"
                       className="img-fluid"
                     />

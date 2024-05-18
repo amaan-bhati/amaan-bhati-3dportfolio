@@ -38,6 +38,27 @@ function EducationJourney() {
         </Flip>
       </div>
       <VerticalTimeline>
+
+      <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+      contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+      date="Dec '23 - Present"
+      iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+      icon={<PersonIcon />}
+    >
+      <h4 className="vertical-timeline-element-title">
+      Mentor
+      </h4>
+      <h4 className="vertical-timeline-element-subtitle mt-2">
+        GSSOC'24
+      </h4>
+      {/*<p>
+          Studied Bachelor of Science degree in Computer Science and
+          Engineering field from Sonargaon University and gain CGPA 3.44.
+        </p>*/}
+    </VerticalTimelineElement>
+
        
 
       <VerticalTimelineElement
@@ -160,6 +181,27 @@ function EducationJourney() {
             Engineering field from Sonargaon University and gain CGPA 3.44.
           </p>*/}
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+        date="Dec '23 - Present"
+        iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+        icon={<PersonIcon />}
+      >
+        <h4 className="vertical-timeline-element-title">
+          Contributor
+        </h4>
+        <h4 className="vertical-timeline-element-subtitle mt-2">
+          GSSoc'23
+        </h4>
+        {/*<p>
+            Studied Bachelor of Science degree in Computer Science and
+            Engineering field from Sonargaon University and gain CGPA 3.44.
+          </p>*/}
+      </VerticalTimelineElement>
+  
         
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
