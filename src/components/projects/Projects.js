@@ -6,6 +6,7 @@ import nyc from "../../images/nyc.png";
 import gc from "../../images/githubclone.png";
 import hd from "../../images/hd.png";
 import pp from "../../images/portfolio.png";
+import Tilt from "react-parallax-tilt";
 
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -32,34 +33,23 @@ export default function Projects() {
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
+                    border: "1px solid", 
                   }}
-                >
+                ><tilt>
                   <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      MLSA KIIT WEBSITE
-                    </h5>
-                    <img src={nyc} alt={nyc} />
-                    <div className="project--showcaseBtn">
+                    <h2 id={"first"} style={{ color: "#fbd9ad" }}>
                       <a
-                        href={
-                          "https://www.mlsakiit.com/"
-                        }
+                        href="https://mlsakiit.com"
                         target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
+                        style={{ color: "#fbd9ad" }}
                       >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
+                        MLSA KIIT WEBSITE
                       </a>
-                    </div>
+                    </h2>
                   </div>
+
                   <h6>
-                    <p
+                    {/*<p
                       className="project--desc"
                       style={{
                         background: "#fbd9ad",
@@ -67,13 +57,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
-                    </p>
+                    
+                    </p>*/}
                   </h6>
                   <div
                     className="project--lang"
@@ -84,10 +69,11 @@ export default function Projects() {
                     }}
                   >
                     NextJS, TypeScript, TailwindCSS, Framer Motion.
-                  </div>
+                  </div></tilt>
                 </div>
               </Fade>
             </Col>
+
             <Col md={3}>
               <Fade bottom>
                 <div
@@ -99,43 +85,28 @@ export default function Projects() {
                   }}
                 >
                   <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      ZIVRI.ME 3D CUSTOMISED CLOTHING
-                    </h5>
-                    <img src={hd} alt={hd} />
-                    <div className="project--showcaseBtn">
+                    <h2 id={"first"} style={{ color: "#fbd9ad" }}>
                       <a
-                        href={
-                          "https://github.com/Prashant1709/zivri_web/tree/main/Zivri%203d%20customization"
-                        }
+                        href="https://git.kiitians.com/explore/repos"
                         target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
+                        style={{ color: "#fbd9ad" }}
                       >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
+                        KIIT VERSION CONTROL
                       </a>
-                    </div>
+                    </h2>
                   </div>
+
                   <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
-                    </p>
+                    {/*<p
+                    className="project--desc"
+                    style={{
+                      background: "#fbd9ad",
+                      color: "#b061df",
+                      fontWeight: 600,
+                    }}
+                  >
+                  
+                  </p>*/}
                   </h6>
                   <div
                     className="project--lang"
@@ -145,11 +116,12 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    ReactJS, ThreeJS, Valtio, Javascript, TailwindCSS
+                    GOLang, Vuejs, GSAP
                   </div>
                 </div>
               </Fade>
             </Col>
+
             <Col md={3}>
               <Fade bottom>
                 <div
@@ -161,39 +133,28 @@ export default function Projects() {
                   }}
                 >
                   <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      GITHUB CLONE
-                    </h5>
-                    <img src={gc} alt={gc} />
-                    <div className="project--showcaseBtn">
+                    <h2 id={"first"} style={{ color: "#fbd9ad" }}>
                       <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
-                        }
+                        href="https://tnlc2024.kiit.ac.in"
                         target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
+                        style={{ color: "#fbd9ad" }}
                       >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
+                        TNLC WEBSITE
                       </a>
-                    </div>
+                    </h2>
                   </div>
+
                   <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                    A functional clone of the GitHub landing page, meticulously crafted with Next.js, Tailwind CSS, and TypeScript. It boasts pixel-perfect visual fidelity, replicating the original's text animations, fonts, colors, and even animations. Built on top of Next.js, Tailwind CSS, and TypeScript.
-                    </p>
+                    {/*<p
+                  className="project--desc"
+                  style={{
+                    background: "#fbd9ad",
+                    color: "#b061df",
+                    fontWeight: 600,
+                  }}
+                >
+                
+                </p>*/}
                   </h6>
                   <div
                     className="project--lang"
@@ -203,11 +164,12 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    NextJS, TypeScript, TailwindCSS
+                    Reactjs+Vite, SCSS, EmailJS, Framer Motion
                   </div>
                 </div>
               </Fade>
             </Col>
+
             <Col md={3}>
               <Fade bottom>
                 <div
@@ -219,41 +181,28 @@ export default function Projects() {
                   }}
                 >
                   <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      FACE ATTENDANCE WITH REALTIME DB UPDATE
-                    </h5>
-                    <img src={pp} alt={pp} />
-                    <div className="project--showcaseBtn">
+                    <h2 id={"first"} style={{ color: "#fbd9ad" }}>
                       <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
-                        }
+                        href="https://kiitfest.org"
                         target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
+                        style={{ color: "#fbd9ad" }}
                       >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
+                        KIITFEST WEBSITE
                       </a>
-                    </div>
+                    </h2>
                   </div>
+
                   <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
-                    </p>
+                    {/*<p
+                className="project--desc"
+                style={{
+                  background: "#fbd9ad",
+                  color: "#b061df",
+                  fontWeight: 600,
+                }}
+              >
+              
+              </p>*/}
                   </h6>
                   <div
                     className="project--lang"
@@ -263,12 +212,12 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Python, Computer Vision, OpenCV, Firebase
+                    NextJS, Javascript, TailwindCSS, Framer Motion.
                   </div>
                 </div>
               </Fade>
             </Col>
-          </Row>
+          </Row><tilt>
           <div className="blog--viewAll">
             <Link to="/projectspage">
               <button className="btn btn-primary">
@@ -276,7 +225,7 @@ export default function Projects() {
                 <HiArrowRight className="viewArr" />
               </button>
             </Link>
-          </div>
+          </div></tilt>
         </Container>
       </Container>
     </div>

@@ -6,12 +6,17 @@ import Tilt from "react-parallax-tilt";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
-import { AiFillGithub, AiFillInstagram, AiOutlineJavaScript } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiOutlineJavaScript,
+} from "react-icons/ai";
 import {
   FaLinkedinIn,
   FaTwitterSquare,
   FaHackerrank,
-  FaFileDownload,FaLink,
+  FaFileDownload,
+  FaLink,
 } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
@@ -34,7 +39,7 @@ export default function Home() {
                 className="heading"
               >
                 Hi There!{" "}
-              {/*}  <span className="wave" role="img" aria-labelledby="wave">
+                {/*}  <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
   </span>*/}
               </h1>
@@ -42,13 +47,12 @@ export default function Home() {
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> AMAAN </strong>
-              
               </h1>
 
               <div className="typing-homeclass">
                 <Typing />
-</div>
-              
+              </div>
+
               <div className="sociallink-home">
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
@@ -110,21 +114,21 @@ export default function Home() {
                       rel="noreferrer"
                       className="iconcolour homesocialico~ns"
                     >
-                      <FaLink/>
+                      <FaLink />
                     </a>
                   </li>
                   <li className="socialicons">
-                  <Button
-                  href="https://drive.google.com/file/d/1pVamHQ6yqsbXtzACSa41_DrYwVfZALk9/view?usp=sharing"
-                  target="_blank"
-                  className="resume-btn" 
-                >Download Resume
-                  {/*<CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                    <Button
+                      href="https://drive.google.com/file/d/1pVamHQ6yqsbXtzACSa41_DrYwVfZALk9/view?usp=sharing"
+                      target="_blank"
+                      className="resume-btn"
+                    >
+                      Download Resume
+                      {/*<CgGitFork style={{ fontSize: "1.2em" }} />{" "}
           <AiFillStar style={{ fontSize: "1.1em" }} />*/}
-                </Button>
+                    </Button>
                   </li>
                 </ul>
-                
               </div>
             </Col>
             <Col md={4} style={{ paddingBottom: 20 }}>
@@ -147,12 +151,10 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      
-      <EducationJourney/>
-      {/*<Projects/>
-      <TechnicalSkill/>*/}
-      
-     
+
+      <EducationJourney />
+      <Projects />
+      <TechnicalSkill />
     </section>
   );
 }

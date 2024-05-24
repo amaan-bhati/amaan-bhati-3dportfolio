@@ -1237,6 +1237,7 @@ h1{
   padding: 1.4rem 2rem;
   position: relative;
   cursor: pointer;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 
