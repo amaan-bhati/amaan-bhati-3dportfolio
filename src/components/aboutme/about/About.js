@@ -33,35 +33,31 @@ const About = () => {
             <Fade duration={3000}>
               <p className="home-about-body">
                 My name is <b className="purple">Amaan Bhati </b> 
-                  and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">KIIT University </b>
+                  and I am a <b className="purple">4th year Computer Science and Engineering </b> 
+                    undergrad at <b className="purple">KIIT University </b>
                       in Bhubaneswar, India.
                 <br />
                 <br />
-                        I am proficient in various programming languages such as &nbsp;
-                  <b className="purple">
-                    {" "}
-                    HTML, CSS, JavaScript, Typescript, Reactjs/Nextjs, Nodejs, Express.js, Mongodb.{" "}
+                        I am proficient in various programming languages such as&nbsp;
+                  <b className="purple">{""}HTML, CSS, JavaScript, Typescript, Python, C++, Java{" "}
                   </b>
                 <br />
                 <br />
-                I also have experience working with frameworks and libraries such as &nbsp;
-
+                I also have experience working with frameworks and libraries such as&nbsp;
                   <b className="purple">
-                    {" "}
-                    NodeJS, ReactJS, Nextjs OpenCV, NextJS, Tailwind CSS, ThreeJS, OpenAI{" "}
+                    {""}
+                    Reactjs, Nextjs, Nodejs, Expressjs, MongoDb, ,Tailwind CSS, ThreeJS, GenerativeAI, OpenAI, OpenCV.{" "}
                   </b>
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing
-                products with &nbsp;
+                Whenever possible, I also apply my passion for developing products and software with&nbsp;
                   <b className="purple">
-                    {" "}
-                    Modern Javascript Library and Frameworks.
+                    {""}
+                    Modern Javascript Libraries and Frameworks.
                   </b>
                 <br />
-                <br />In my free time, I enjoy learning new technologies and &nbsp;
-                  <b className="purple">building new web technologies and products. </b>
+                <br />Also a tech enthusiast who loves to explore new technologies on a regular basis as a source of escapism. In my free time, I enjoy exploring, learning and trying hands on new technologies. Feel free to hit me up on socials if you wanna chat about modern web dev frameworks and libraries or anything about tech in general.&nbsp;
+                  <b className="purple"> </b>
               </p>
             </Fade>
           </Col>
