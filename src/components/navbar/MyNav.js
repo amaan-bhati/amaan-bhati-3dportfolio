@@ -77,7 +77,7 @@ export default function MyNav() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+           {/*<Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -85,7 +85,7 @@ export default function MyNav() {
               >
                  Resume
               </Nav.Link>
-            </Nav.Item>
+        </Nav.Item>*/}
 
             <Nav.Item>
               <Nav.Link
@@ -97,7 +97,7 @@ export default function MyNav() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+              <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/blogs_page"
@@ -111,7 +111,7 @@ export default function MyNav() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://linktr.ee/amaanbhati?utm_source=linktree_admin_share"
+                href="https://contact.amaanbhati.tech"
                 target="_blank"
                 className="fork-btn-inner"
               >Contact Me
