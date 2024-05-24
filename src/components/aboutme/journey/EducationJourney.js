@@ -194,7 +194,7 @@ function EducationJourney() {
           Contributor
         </h4>
         <h4 className="vertical-timeline-element-subtitle mt-2">
-          GSSoc'23
+          GSSoC'23
         </h4>
         {/*<p>
             Studied Bachelor of Science degree in Computer Science and
