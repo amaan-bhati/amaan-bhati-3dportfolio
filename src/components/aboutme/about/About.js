@@ -39,7 +39,7 @@ const About = () => {
                 <br />
                 <br />
                         I am proficient in various scripting, programming, markup and styling languages such as&nbsp;
-                  <b className="purple">{""}HTML, CSS, JavaScript, Typescript, Python, C++, Java{" "}
+                  <b className="purple">{""}HTML, CSS, JavaScript, Typescript, Python, C++, Java.{" "}
                   </b>
                 <br />
                 <br />
