@@ -1,4 +1,4 @@
-import React from "react";
+import React, { cloneElement } from "react";
 import Particle from "../../Particle";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
@@ -8,6 +8,8 @@ import eco from "../../images/eco.png";
 import zivri from "../../images/zivri.png";
 import kiitfest from "../../images/kiitfest.png";
 import tedxkiit from "../../images/tedxkiit.png";
+import githubclone from "../../images/githubclone.png";
+
 import meal from "../../images/meal.png";
 import ac from "../../images/academic.png";
 import age from "../../images/age.png";
@@ -49,27 +51,15 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  MLSA KIIT Website
-                                </h5>
-                                <img src={mlsakiit} alt={mlsakiit} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
+                              <a
+                              href="https://mlsakiit.com"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                 
+                                    MLSA KIIT WEBSITE
+                                 
+                                </h5> </a>
                               </div>
                               <h6>
                                 <p
@@ -79,15 +69,7 @@ export default function ProjectPage() {
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
-                                >
-                                  The New Year Countdown Project is more than
-                                  just a celebration; it's a testament to the
-                                  human spirit and our shared aspirations for a
-                                  brighter future. So, mark your calendars and
-                                  get ready to be part of this global
-                                  extravaganza as we count down to a new year
-                                  filled with endless possibilities.
-                                </p>
+                                ></p>
                               </h6>
                               <div
                                 className="project--lang"
@@ -97,256 +79,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                NextJS, TypeScript, TailwindCSS, Framer Motion.
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
-                          <Fade bottom>
-                            <div
-                              key={1}
-                              className="singleProject"
-                              style={{
-                                backgroundColor: "rgb(142 70 186 / 31%)",
-                                border: "1px solid",
-                              }}
-                            >
-                              <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  ZIVRI.ME 3-D CLOTHING
-                                </h5>
-                                <img src={zivri} alt={zivri} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                              <h6>
-                                <p
-                                  className="project--desc"
-                                  style={{
-                                    background: "#fbd9ad",
-                                    color: "#b061df",
-                                    fontWeight: 600,
-                                  }}
-                                >
-                                  Use of AI and Machine Learning: Artificial
-                                  intelligence and machine learning are already
-                                  being used in healthcare to help predict heart
-                                  disease. In the future, these technologies
-                                  could become more advanced, enabling more
-                                  accurate predictions of heart disease risk.
-                                </p>
-                              </h6>
-                              <div
-                                className="project--lang"
-                                style={{
-                                  background: "#fbd9ad",
-                                  color: "#b061df",
-                                  fontWeight: 600,
-                                }}
-                              >
-                                ReactJS, ThreeJS, Valtio, Javascript,
-                                TailwindCSS
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
-                          <Fade bottom>
-                            <div
-                              key={1}
-                              className="singleProjectPage"
-                              style={{
-                                backgroundColor: "rgb(142 70 186 / 31%)",
-                                border: "1px solid",
-                              }}
-                            >
-                              <div className="projectPageContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  KIITFEST OFFICIAL WEBSITE
-                                </h5>
-                                <img src={kiitfest} alt={kiitfest} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                              <h6>
-                                <p
-                                  className="project--desc"
-                                  style={{
-                                    background: "#fbd9ad",
-                                    color: "#b061df",
-                                    fontWeight: 600,
-                                  }}
-                                >
-                                  A Payroll management System with feature like
-                                  generate payslip & reports. It manages
-                                  salaries, leaves, branches, employees,
-                                  designations, shifts, holidays and employee
-                                  attendance. It has chat application so
-                                  internal employees can use that feature.
-                                </p>
-                              </h6>
-                              <div
-                                className="project--lang"
-                                style={{
-                                  background: "#fbd9ad",
-                                  color: "#b061df",
-                                  fontWeight: 600,
-                                }}
-                              >
-                                TYPESCRIPT, TAILWINDCSS, NEXTJS, THREEJS, GOLANG
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
-                          <Fade bottom>
-                            <div
-                              key={1}
-                              className="singleProject"
-                              style={{
-                                backgroundColor: "rgb(142 70 186 / 31%)",
-                                border: "1px solid",
-                              }}
-                            >
-                              <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  FACE ATTENDANCE WITH REALTIME DB UPDATE
-                                </h5>
-                                <img src={eco} alt={eco} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Shoppy_Ecommerce"
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                              <h6>
-                                <p
-                                  className="project--desc"
-                                  style={{
-                                    background: "#fbd9ad",
-                                    color: "#b061df",
-                                    fontWeight: 600,
-                                  }}
-                                >
-                                  Seamless online shopping with a vast catalog,
-                                  secure transactions, and personalized
-                                  recommendations. 24/7 customer support,
-                                  flexible payments, and fast shipping. Explore
-                                  our website and redefine your shopping
-                                  experience.
-                                </p>
-                              </h6>
-                              <div
-                                className="project--lang"
-                                style={{
-                                  background: "#fbd9ad",
-                                  color: "#b061df",
-                                  fontWeight: 600,
-                                }}
-                              >
-                                HTML, CSS, React, JavaScript
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
-                          <Fade bottom>
-                            <div
-                              key={1}
-                              className="singleProject"
-                              style={{
-                                backgroundColor: "rgb(142 70 186 / 31%)",
-                                border: "1px solid",
-                              }}
-                            >
-                              <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  TEDxKIITUNIVERSITY Website
-                                </h5>
-                                <img src={tedxkiit} alt={tedxkiit} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={"https://tedxkiituniversity.in"}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                              <h6>
-                                <p
-                                  className="project--desc"
-                                  style={{
-                                    background: "#fbd9ad",
-                                    color: "#b061df",
-                                    fontWeight: 600,
-                                  }}
-                                >
-                                  Welcome to my personal portfolio. Explore my
-                                  work, skills, and achievements in a concise
-                                  and visually appealing format. Get a glimpse
-                                  of my expertise and creativity.
-                                </p>
-                              </h6>
-                              <div
-                                className="project--lang"
-                                style={{
-                                  background: "#fbd9ad",
-                                  color: "#b061df",
-                                  fontWeight: 600,
-                                }}
-                              >
-                                HTML, CSS, SCSS, React, JavaScript
+                                NextJS, TypeScript, TailwindCSS.
                               </div>
                             </div>
                           </Fade>
@@ -363,25 +96,15 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Project
-                                </h5>
-                                <img src={tedxkiit} alt={tedxkiit} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={"https://tedxkiituniversity.in"}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
+                              <a
+                              href="https://kiitfest.org"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                 
+                                     KIITFEST WEBSITE
+                                 
+                                </h5> </a>
                               </div>
                               <h6>
                                 <p
@@ -391,18 +114,7 @@ export default function ProjectPage() {
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
-                                >
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit. Sed do eiusmod tempor
-                                  incididunt ut labore et dolore magna aliqua.
-                                  Ut enim ad minim veniam, quis nostrud
-                                  exercitation ullamco laboris nisi ut aliquip
-                                  ex ea commodo consequat. Duis aute irure dolor
-                                  in reprehenderit in voluptate velit esse
-                                  cillum dolore eu fugiat nulla pariatur.
-                                  Excepteur sint occaecat cupidatat non
-                                  proident.
-                                </p>
+                                ></p>
                               </h6>
                               <div
                                 className="project--lang"
@@ -412,8 +124,244 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH
-                                STACK 4
+                                NextJS, Javascript, TailwindCSS, Framer Motion.
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://tnlc2024.kiit.ac.in"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                 
+                                    Tnlc Conference Website
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                Reactjs, SCSS, Framer Motion, EmailJS
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://www.tedxkiituniversity.in/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                 
+                                    TEDxKIITUNIVERSITY Website
+                                  
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                Reactjs, CSS, Javascript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://git.kiitians.com/explore/repos"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                 
+                                    KIIT Version Control System
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                Vuejs, Go, SCSS, Gitea
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://github.com/amaan-bhati/SIH_hackiit_leafify"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                 
+                                    Identification OF Medicinal Plants
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                Reactjs, Pytorch, Matplotlib, Numpy, Nodejs
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://github.com/amaan-bhati/emotion-detection-using-python/tree/main/EmoTune-main"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Emotion Detection System
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              Python, Deepface, Kivy, OpenCV
                               </div>
                             </div>
                           </Fade>
@@ -430,25 +378,15 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Project
-                                </h5>
-                                <img src={tedxkiit} alt={tedxkiit} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={"https://tedxkiituniversity.in"}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
+                              <a
+                              href="https://resume.amaanbhati.tech"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Resume Builder
+                                 
+                                </h5> </a>
                               </div>
                               <h6>
                                 <p
@@ -458,18 +396,7 @@ export default function ProjectPage() {
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
-                                >
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit. Sed do eiusmod tempor
-                                  incididunt ut labore et dolore magna aliqua.
-                                  Ut enim ad minim veniam, quis nostrud
-                                  exercitation ullamco laboris nisi ut aliquip
-                                  ex ea commodo consequat. Duis aute irure dolor
-                                  in reprehenderit in voluptate velit esse
-                                  cillum dolore eu fugiat nulla pariatur.
-                                  Excepteur sint occaecat cupidatat non
-                                  proident.
-                                </p>
+                                ></p>
                               </h6>
                               <div
                                 className="project--lang"
@@ -479,8 +406,294 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH
-                                STACK 4
+                              Next/reactjs. javascript/typescript, nodejs, tailwindcss
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://jpg-to-png-converter.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    JPG to PNG Image Converter
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://solarsystem-dun.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Solar System Minimal Animation
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript, GSAP
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://github-clone-by-amaan.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Github Clone
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              Nextjs/Reactjs, Nodejs, TailwindCSS
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://stopwatchjs-seven.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Stopwatch JS
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://dice-roller-blond.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    3d Dice Roller
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript, Threejs
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://uber-eats-clone-nine.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Uber Eats Clone
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript
                               </div>
                             </div>
                           </Fade>
@@ -497,25 +710,15 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Project
-                                </h5>
-                                <img src={tedxkiit} alt={tedxkiit} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={"https://tedxkiituniversity.in"}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
+                              <a
+                              href="https://gsap-scroll-trigger-fawn.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Horizontal Scroll GSAP
+                                 
+                                </h5> </a>
                               </div>
                               <h6>
                                 <p
@@ -525,18 +728,7 @@ export default function ProjectPage() {
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
-                                >
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit. Sed do eiusmod tempor
-                                  incididunt ut labore et dolore magna aliqua.
-                                  Ut enim ad minim veniam, quis nostrud
-                                  exercitation ullamco laboris nisi ut aliquip
-                                  ex ea commodo consequat. Duis aute irure dolor
-                                  in reprehenderit in voluptate velit esse
-                                  cillum dolore eu fugiat nulla pariatur.
-                                  Excepteur sint occaecat cupidatat non
-                                  proident.
-                                </p>
+                                ></p>
                               </h6>
                               <div
                                 className="project--lang"
@@ -546,12 +738,13 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH
-                                STACK 4
+                              HTML, CSS, Javascript, GSAP
                               </div>
                             </div>
                           </Fade>
                         </Col>
+
+
 
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
@@ -564,25 +757,15 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Project
-                                </h5>
-                                <img src={tedxkiit} alt={tedxkiit} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={"https://tedxkiituniversity.in"}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
+                              <a
+                              href="https://gsap-animation-scroll.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Scroll Animation Gallery
+                                 
+                                </h5> </a>
                               </div>
                               <h6>
                                 <p
@@ -592,16 +775,7 @@ export default function ProjectPage() {
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
-                                >
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit. Sed do eiusmod tempor
-                                  incididunt ut labore et dolore magna aliqua.
-                                  Ut enim ad minim veniam, quis nostrud
-                                  exercitation ullamco laboris nisi ut aliquip
-                                  ex ea commodo consequat. Duis aute irure dolor
-                                  in reprehenderit in voluptate velit esse
-                                  cillum dolore eu fugiat nulla pariatur.
-                                </p>
+                                ></p>
                               </h6>
                               <div
                                 className="project--lang"
@@ -611,12 +785,485 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                TECH STACK 1, TECH STACK 2, TECH STACK 3, TECH
-                                STACK 4
+                              HTML, CSS, Javascript, GSAP
                               </div>
                             </div>
                           </Fade>
                         </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://reveal-gallery.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Animated Grid Reveal Gallery
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript, Animejs
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://split-karo-three.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Split Karo
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://zeroth-ai.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Article Summarizer AI
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              Nextjs, TailwindCSS
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://uber-eats-clone-nine.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Parallax Image Gallery Nextjs
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              Nextjs, Nodejs, Lenis, TailwindCSS, GSAP
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://simple-javascript-game-liard.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Chrome Dragon Game
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://hover-scale-gallery.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Hover Scale Gallery NEXTJS
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              Nextjs/Reactjs, Nodejs, Tailwindcss, gsap
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://wedding-agency-website.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Wedding Agency Website
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://todo-app-angular-three.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Todo List app angularjs
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              Angular JS
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://gym-website-alpha-blue.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    Gym Website
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              HTML, CSS, Javascript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                              <a
+                              href="https://hexcode-opacity-generator.vercel.app/"
+                              target="_blank"
+                              style={{ color: "#fbd9ad" }}
+                            > <h5 id={"first"} style={{ color: "#fbd9ad" }}> 
+                                 
+                                    HEX Code Opacity Generator
+                                 
+                                </h5> </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                              Reactjs, Nodejs, Css
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+                        
                       </Row>
                     </Col>
                   </Row>
