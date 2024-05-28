@@ -1403,6 +1403,52 @@ export default function ProjectPage() {
                           </Fade>
                         </Col>
 
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <a
+                                  href="https://github.com/amaan-bhati"
+                                  target="_blank"
+                                  style={{ color: "#fbd9ad" }}
+                                >
+                                  {" "}
+                                  <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                    View More
+                                  </h5>{" "}
+                                </a>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                ></p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                Check all projects on my github
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
                         
                       </Row>
                     </Col>
