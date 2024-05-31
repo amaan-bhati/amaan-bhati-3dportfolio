@@ -52,7 +52,7 @@ function EducationJourney() {
       Summer Intern
       </h4>
       <h4 className="vertical-timeline-element-subtitle mt-2">
-        Timechain Labs
+        TIMECHAIN LABS
       </h4>
       {/*<p>
           Studied Bachelor of Science degree in Computer Science and
