@@ -44,7 +44,7 @@ function EducationJourney() {
       className="vertical-timeline-element--work"
       contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
       contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-      date="Dec '23 - Present"
+      date="May '24 - Present"
       iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
       icon={<PersonIcon />}
     >
@@ -64,7 +64,7 @@ function EducationJourney() {
       className="vertical-timeline-element--work"
       contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
       contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-      date="Dec '23 - Present"
+      date="May '24 - Present"
       iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
       icon={<PersonIcon />}
     >
