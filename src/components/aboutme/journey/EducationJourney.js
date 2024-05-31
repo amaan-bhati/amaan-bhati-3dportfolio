@@ -8,6 +8,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import { Link } from "react-router-dom";
 import StarIcon from "@mui/icons-material/Star";
 import Flip from "react-reveal/Flip";
+import Zoom from "react-reveal/Zoom";
 
 function EducationJourney() {
   return (
@@ -33,11 +34,31 @@ function EducationJourney() {
 
       </div>
       <div className="mt-5">
-        <Flip top cascade>
+        <Zoom left cascade>
           <h1>Work Experience</h1>
-        </Flip>
+        </Zoom>
       </div>
       <VerticalTimeline>
+
+      <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+      contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+      date="Dec '23 - Present"
+      iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+      icon={<PersonIcon />}
+    >
+      <h4 className="vertical-timeline-element-title">
+      Summer Intern
+      </h4>
+      <h4 className="vertical-timeline-element-subtitle mt-2">
+        Timechain Labs
+      </h4>
+      {/*<p>
+          Studied Bachelor of Science degree in Computer Science and
+          Engineering field from Sonargaon University and gain CGPA 3.44.
+        </p>*/}
+    </VerticalTimelineElement>
 
       <VerticalTimelineElement
       className="vertical-timeline-element--work"
