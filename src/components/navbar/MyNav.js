@@ -99,15 +99,15 @@ export default function MyNav() {
 
               <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/blogs_page"
+              href="https://blog.amaanbhati.tech"
+              target="_blank"
                 onClick={() => updateExpanded(false)}
               >
-               Other Portfolios
+               Blogs
               </Nav.Link>
             </Nav.Item>
 
-            
+           
 
             <Nav.Item className="fork-btn">
               <Button
