@@ -56,7 +56,7 @@ const About = () => {
                     Modern Javascript Libraries and Frameworks.
                   </b>
                 <br />
-                <br />Also a tech enthusiast who loves to explore new technologies on a regular basis as a source of escapism. In my free time, I enjoy exploring, learning and trying hands on new technologies. Feel free to hit me up on socials if you wanna chat about modern web dev frameworks and libraries or anything about tech in general.&nbsp;
+                <br />&nbsp;
                   <b className="purple"> </b>
               </p>
             </Fade>
